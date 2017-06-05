@@ -15,7 +15,8 @@ test:
   database: soswar2_test
 
 production:
-  <<: *default
-  database: soswar2_production
-  username: soswar2
-  password: <%= ENV['SOSWAR2_DATABASE_PASSWORD'] %>
+  host: ec2-184-73-236-170.compute-1.amazonaws.com
+  database: dechri3ns66e7h
+  username: gdyhuhumtqqhvr
+  password: 2e04cf413b86810f0cc27b6b67db7a5874a889d6397a169fb7ad298474b909e9
+  port: 5432
