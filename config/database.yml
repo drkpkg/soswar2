@@ -15,6 +15,7 @@ test:
   database: soswar2_test
 
 production:
+  <<: *default
   host: ec2-184-73-236-170.compute-1.amazonaws.com
   database: dechri3ns66e7h
   username: gdyhuhumtqqhvr
